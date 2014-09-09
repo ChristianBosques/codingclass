@@ -3,3 +3,10 @@ float: left;
 width:200px;
 height: 1000px;
 }
+.main-header{
+background:#666699;
+padding:50px;
+text-align:center;
+font-size:400%;
+color:#fff;
+}
