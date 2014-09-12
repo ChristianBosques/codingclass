@@ -11,6 +11,34 @@ background-color: #0000FF;
 padding: 20px;
 }
 
+.main-header .navigation {
+	width: 100%;
+}
+
+.main-header .navigation ul {
+	list-style: none; /*this removes dots*/
+	background-color: green;
+	overflow: hidden;
+}
+
+.main-header .navigation ul li {
+	float: left;
+	display: inline-block;
+}
+.main-header .navigation ul li a {
+	padding: 0 15px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.main-header .navigation ul li a:hover {
+	background-color: pink;
+	color: green;
+	text-decoration: underline;
+}
+
 .main-content {
 min-height: 500px;
 }
